@@ -4,8 +4,8 @@
   "description": "todo app",
   "main": "app.js",
   "scripts": {
-    "ts:compile": "tsc -w app.js",
-    "dev": "nodemon app.js"
+    "ts:compile": "tsc -w app.ts",
+    "dev": "tsc app.ts & nodemon app.js"
   },
   "repository": {
     "type": "git",
